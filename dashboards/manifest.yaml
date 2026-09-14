@@ -1,0 +1,17 @@
+# Dashboard register for the MSc Finance "Investments" module.
+# Single source of truth for build_dashboards.py and for index.html.
+# Add one entry per dashboard, then run: python3 build_dashboards.py
+
+course: "MSc Finance — Investments"
+institution: "FHNW School of Business, Basel"
+base_url: "https://KroeTiA.github.io/Investments/dashboards/"
+
+dashboards:
+  - slug: historical_returns
+    src: src/historical_returns.jsx
+    lecture: "Lecture 02"
+    title: "Risk and Return — The Historical Record"
+    blurb: >-
+      US and Swiss annual returns since 1926. Switch between nominal and real,
+      compare cumulative growth, risk premia, standard deviation, skewness,
+      kurtosis and 1% VaR/ES across sub-periods.
