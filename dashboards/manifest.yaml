@@ -15,3 +15,12 @@ dashboards:
       US and Swiss annual returns since 1926. Switch between nominal and real,
       compare cumulative growth, risk premia, standard deviation, skewness,
       kurtosis and 1% VaR/ES across sub-periods.
+
+  - slug: risk_aversion_utility
+    src: src/risk_aversion_utility.jsx
+    lecture: "Lecture 03"
+    title: "Risk Aversion & Utility Functions"
+    blurb: >-
+      Three linked views: the utility function over wealth, mean-variance
+      utility scores with indifference curves, and a lottery experiment that
+      backs out your own coefficient of risk aversion A.
