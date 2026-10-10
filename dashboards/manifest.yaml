@@ -1,6 +1,9 @@
 # Dashboard register for the MSc Finance "Investments" module.
 # Single source of truth for build_dashboards.py and for index.html.
 # Add one entry per dashboard, then run: python3 build_dashboards.py
+#
+# Entries with `prebuilt: true` have no .jsx source — the .html is committed
+# as-is and only listed in the index, never re-bundled.
 
 course: "MSc Finance — Investments"
 institution: "FHNW School of Business, Basel"
@@ -24,3 +27,13 @@ dashboards:
       Three linked views: the utility function over wealth, mean-variance
       utility scores with indifference curves, and a lottery experiment that
       backs out your own coefficient of risk aversion A.
+
+  - slug: two_asset_frontier
+    prebuilt: true
+    lecture: "Lecture 04"
+    title: "Two-Asset Mean-Variance Frontier"
+    blurb: >-
+      Bond fund plus equity fund, with cash as the risk-free asset. Drag the
+      correlation to bend the frontier, read weights off any point, and follow
+      the worked solution for the MVP, the tangency portfolio and the complete
+      portfolio at a target return.
